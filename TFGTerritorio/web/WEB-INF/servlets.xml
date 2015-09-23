@@ -1,0 +1,19 @@
+<!--  <servlet>
+		<servlet-name>ServletInicial</servlet-name>
+		<servlet-class>tfgterritorio.servlets.ServletInicial</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>ServletInicial</servlet-name>
+		<url-pattern>/inicio.inicial</url-pattern>
+	</servlet-mapping>	-->	
+	<servlet>
+		<servlet-name>ServletLogout</servlet-name>
+		<servlet-class>tfgterritorio.servlet.ServletLogout</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>ServletLogout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>	
+	
